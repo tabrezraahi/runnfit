@@ -1,0 +1,2 @@
+$(document).ready(function(){new SmoothScroll('a[href*="#"]',{offset:120,easing:"easeInOutQuad"});$(window).on("scroll",function(){var a=$(".navbar");window.scrollY<200?a.removeClass("navbar-small"):a.addClass("navbar-small")})});
+var tabrez="tabrez";
